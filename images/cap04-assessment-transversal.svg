@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="100%" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <marker id="arr-b" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#1D4ED8"/>
+    </marker>
+    <marker id="arr-a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#D97706"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="420" fill="#F9FAFB" rx="8"/>
+
+  <!-- Title -->
+  <text x="400" y="24" text-anchor="middle" font-size="12" fill="#6B7280" font-weight="500">Figura 4 — Assessment como jornada paralela às três jornadas clássicas, nos dois modos</text>
+
+  <!-- ═══════════════════════════════════════════
+       ROW 1 — MODO UPSTREAM
+       ══════════════════════════════════════════ -->
+
+  <!-- Outer frame -->
+  <rect x="20" y="36" width="760" height="152" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5" rx="6"/>
+
+  <!-- Mode header band (rounded top corners only) -->
+  <path d="M 26,36 Q 20,36 20,42 L 20,64 L 780,64 L 780,42 Q 780,36 774,36 Z" fill="#3B82F6"/>
+  <text x="400" y="54" text-anchor="middle" font-size="12" fill="#FFFFFF" font-weight="700">MODO UPSTREAM — rigor advisory · sem gates obrigatórios</text>
+
+  <!-- Assessment band -->
+  <rect x="32" y="72" width="736" height="48" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1.5" rx="4"/>
+  <text x="400" y="91" text-anchor="middle" font-size="11" fill="#5B21B6" font-weight="700">Assessment</text>
+  <text x="400" y="107" text-anchor="middle" font-size="9" fill="#5B21B6">Dimensão Prospectiva ativa: avalia contexto para o CommitmentGate · ciclo Assíncrono em monitoramento contínuo</text>
+
+  <!-- Journey boxes: y=128, h=52 -->
+
+  <!-- Discovery -->
+  <rect x="38" y="128" width="215" height="52" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5" rx="4"/>
+  <text x="145" y="148" text-anchor="middle" font-size="11" fill="#1D4ED8" font-weight="700">Discovery</text>
+  <text x="145" y="163" text-anchor="middle" font-size="9" fill="#374151">Exploratório · advisory</text>
+  <text x="145" y="175" text-anchor="middle" font-size="9" fill="#374151">Experimento como unidade</text>
+
+  <line x1="253" y1="154" x2="279" y2="154" stroke="#1D4ED8" stroke-width="1.5" marker-end="url(#arr-b)"/>
+
+  <!-- Delivery -->
+  <rect x="279" y="128" width="215" height="52" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5" rx="4"/>
+  <text x="386" y="148" text-anchor="middle" font-size="11" fill="#1D4ED8" font-weight="700">Delivery</text>
+  <text x="386" y="163" text-anchor="middle" font-size="9" fill="#374151">Advisory · fases opcionais</text>
+  <text x="386" y="175" text-anchor="middle" font-size="9" fill="#374151">Engenheiro decide profundidade</text>
+
+  <line x1="494" y1="154" x2="520" y2="154" stroke="#1D4ED8" stroke-width="1.5" marker-end="url(#arr-b)"/>
+
+  <!-- Operation -->
+  <rect x="520" y="128" width="215" height="52" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5" rx="4"/>
+  <text x="627" y="148" text-anchor="middle" font-size="11" fill="#1D4ED8" font-weight="700">Operation</text>
+  <text x="627" y="163" text-anchor="middle" font-size="9" fill="#374151">Experimental</text>
+  <text x="627" y="175" text-anchor="middle" font-size="9" fill="#374151">Sandbox · sem SLO formal</text>
+
+  <!-- ═══════════════════════════════════════════
+       CommitmentGate separator
+       ══════════════════════════════════════════ -->
+
+  <rect x="210" y="196" width="380" height="32" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5" rx="4"/>
+  <text x="400" y="209" text-anchor="middle" font-size="10" fill="#D97706" font-weight="700">CommitmentGate</text>
+  <text x="400" y="222" text-anchor="middle" font-size="9" fill="#D97706">Decision Package · 6 outcomes · trio PM + Tech Lead + Autor</text>
+
+  <!-- ═══════════════════════════════════════════
+       ROW 2 — MODO DOWNSTREAM
+       ══════════════════════════════════════════ -->
+
+  <!-- Outer frame -->
+  <rect x="20" y="236" width="760" height="152" fill="#FFFBEB" stroke="#F59E0B" stroke-width="1.5" rx="6"/>
+
+  <!-- Mode header band -->
+  <path d="M 26,236 Q 20,236 20,242 L 20,264 L 780,264 L 780,242 Q 780,236 774,236 Z" fill="#F59E0B"/>
+  <text x="400" y="254" text-anchor="middle" font-size="12" fill="#FFFFFF" font-weight="700">MODO DOWNSTREAM — rigor bloqueante · gates obrigatórios</text>
+
+  <!-- Assessment band -->
+  <rect x="32" y="272" width="736" height="48" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1.5" rx="4"/>
+  <text x="400" y="291" text-anchor="middle" font-size="11" fill="#5B21B6" font-weight="700">Assessment</text>
+  <text x="400" y="307" text-anchor="middle" font-size="9" fill="#5B21B6">Ciclo Assíncrono: monitora fluxo e gates · Dimensão Retrospectiva: lê Timelines e gera novos Business Signals</text>
+
+  <!-- Journey boxes: y=328, h=52 -->
+
+  <!-- Discovery -->
+  <rect x="38" y="328" width="215" height="52" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5" rx="4"/>
+  <text x="145" y="348" text-anchor="middle" font-size="11" fill="#D97706" font-weight="700">Discovery</text>
+  <text x="145" y="363" text-anchor="middle" font-size="9" fill="#374151">Preparatório · OBC → Committed</text>
+  <text x="145" y="375" text-anchor="middle" font-size="9" fill="#374151">BDD Feature · Readiness Gate</text>
+
+  <line x1="253" y1="354" x2="279" y2="354" stroke="#D97706" stroke-width="1.5" marker-end="url(#arr-a)"/>
+
+  <!-- Delivery -->
+  <rect x="279" y="328" width="215" height="52" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5" rx="4"/>
+  <text x="386" y="348" text-anchor="middle" font-size="11" fill="#D97706" font-weight="700">Delivery</text>
+  <text x="386" y="363" text-anchor="middle" font-size="9" fill="#374151">Obrigatório · gates bloqueantes</text>
+  <text x="386" y="375" text-anchor="middle" font-size="9" fill="#374151">Bootstrap→Hack→Sync→Ship→Promote</text>
+
+  <line x1="494" y1="354" x2="520" y2="354" stroke="#D97706" stroke-width="1.5" marker-end="url(#arr-a)"/>
+
+  <!-- Operation -->
+  <rect x="520" y="328" width="215" height="52" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5" rx="4"/>
+  <text x="627" y="348" text-anchor="middle" font-size="11" fill="#D97706" font-weight="700">Operation</text>
+  <text x="627" y="363" text-anchor="middle" font-size="9" fill="#374151">Produção real · SLOs ativos</text>
+  <text x="627" y="375" text-anchor="middle" font-size="9" fill="#374151">Runbooks · protocolo de incidentes</text>
+
+  <!-- Footer note -->
+  <text x="400" y="408" text-anchor="middle" font-size="9" fill="#6B7280">Assessment não é uma fase — é uma camada de governança informacional paralela a todas as jornadas, em ambos os modos</text>
+</svg>
